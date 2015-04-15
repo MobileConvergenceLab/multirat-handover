@@ -1,6 +1,6 @@
 README
 
-#<Introduction>
+<Introduction>
  This program is for efficient handover of dual WLAN device.
 It uses each WLAN as active link and standby link.
 Active link is used for communicating and standby link is used for scanning APs.
