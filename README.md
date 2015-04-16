@@ -28,9 +28,9 @@ makefile
   `apt-get install openvswitch-switch openvswitch-brcompat openvswitch-datapath-source`
 
 2. Configure local network
-	>>* Open NetConfigure.sh
-	>>* Modify MAC Address table and IP address of br0
-	>>* `./NetConfigure.sh`
+	* Open NetConfigure.sh
+	* Modify MAC Address table and IP address of br0
+	* `./NetConfigure.sh`
 
 3. Make execution file `make`
 
