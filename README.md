@@ -1,7 +1,10 @@
-README
+#MultiRAT-Handover
 
-<Introduction>
- This program is for efficient handover of dual WLAN device.
+
+
+##Introduction
+
+This program is for efficient handover of dual WLAN device.
 It uses each WLAN as active link and standby link.
 Active link is used for communicating and standby link is used for scanning APs.
 Program make link overlapped on previous link of active link when handover needed.
@@ -16,18 +19,5 @@ This program is comprise of follow codes:
 
 	and makefile
 
-<How to execute program>
-1. install open vswitch
-	 -> #apt-get install openvswitch-switch openvswitch-brcompat openvswitch-datapath-source
-
-2. Configure local network
-	-> Open NetConfigure.sh
-	-> Modify MAC Address table and IP address of br0
-	-> #./NetConfigure.sh
-
-3. Make execution file
-	-> #make
-
-4. Start handover program
-	-> #sudo ./test
-
+##How to execute program
+1. Install OpenvSwitch "'apt-get install openvswitch-switch openvswitch-brcompat openvswitch-datapath-source"'
