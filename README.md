@@ -25,7 +25,7 @@ makefile
 ##How to execute program
 
 1. Install open vswitch
-  `apt-get install openvswitch-switch openvswitch-brcompat openvswitch-datapath-source`
+  `apt-get install openvswitch-switch openvswitch-brcompat openvswitch-datapath-source libiw-dev`
 
 
 2. Configure local network
